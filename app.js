@@ -6,7 +6,7 @@ const port = 3000;
 const testModule = require('./test');
 
 app.get('/', (req, res) => {
-  res.send('Backend is running');
+  res.send('Backend is running at 3000');
 });
 
 app.listen(port, () => {
